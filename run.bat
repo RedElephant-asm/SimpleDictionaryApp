@@ -1,0 +1,1 @@
+java -Dfile.encoding=UTF-8 -classpath C:\Users\ksavchenko\Documents\Projects\Java\SimpleEncodings\production\*;C:\Users\ksavchenko\Documents\Projects\Java\SimpleDictionaryService\production\*;.\build Application

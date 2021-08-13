@@ -1,0 +1,2 @@
+dir /s /B .\*.java > .\build\sources.txt
+javac @.\build\sources.txt -encoding utf8 -cp C:\Users\ksavchenko\Documents\Projects\Java\SimpleEncodings\production\*;C:\Users\ksavchenko\Documents\Projects\Java\SimpleDictionaryService\production\* -d ./build
