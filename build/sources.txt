@@ -2,6 +2,7 @@ C:\Users\ksavchenko\Documents\Projects\Java\SimpleDictionaryApp\src\main\java\Ap
 C:\Users\ksavchenko\Documents\Projects\Java\SimpleDictionaryApp\src\main\java\Colors.java
 C:\Users\ksavchenko\Documents\Projects\Java\SimpleDictionaryApp\src\main\java\Command.java
 C:\Users\ksavchenko\Documents\Projects\Java\SimpleDictionaryApp\src\main\java\CommandHandler.java
+C:\Users\ksavchenko\Documents\Projects\Java\SimpleDictionaryApp\src\main\java\CommandInfo.java
 C:\Users\ksavchenko\Documents\Projects\Java\SimpleDictionaryApp\src\main\java\ConsoleListener.java
 C:\Users\ksavchenko\Documents\Projects\Java\SimpleDictionaryApp\src\main\java\Interruptible.java
 C:\Users\ksavchenko\Documents\Projects\Java\SimpleDictionaryApp\src\main\java\Log.java

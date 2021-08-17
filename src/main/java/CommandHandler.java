@@ -89,6 +89,10 @@ public class CommandHandler implements Runnable, Interruptible {
                 this.closeThread();
                 break;
 
+            case HELP:
+                currentCommand.execute(dictionaryService, Arrays.copyOfRange(commandParameters, 1, commandParameters.length));
+                break;
+
             case UNKNOWN_COMMAND:
                 System.out.printf("Unknown command \"%s\".\n", commandParameters[0]);
                 break;

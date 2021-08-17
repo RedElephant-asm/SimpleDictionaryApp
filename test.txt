@@ -1,2 +1,5 @@
 test/ТЕСТ1
-next/Следующий
+next/СЛЕДУЮЩИЙ
+current/Текущий
+newRecord/новаяЗапись
+новый/new

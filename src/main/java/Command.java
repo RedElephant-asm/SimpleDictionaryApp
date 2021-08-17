@@ -5,6 +5,7 @@ import org.SimpleDictionaryService.language.Language;
 import org.SimpleDictionaryService.throwable.UnknownEncodingException;
 import org.SimpleDictionaryService.throwable.UnknownLanguageException;
 import org.SimpleEncodings.Encoding;
+import org.omg.CORBA.PUBLIC_MEMBER;
 
 import java.util.Arrays;
 
@@ -70,6 +71,24 @@ public enum Command {
         @Override
         public void execute(DictionaryService context, String[] parameters) {
             context.updateRecord(parameters[0], parameters[1]);
+        }
+    },
+
+    WRITE_DICTIONARY    (0){
+
+        @Override
+        public void execute(DictionaryService context, String[] parameters) {
+            context.writeDictionary();
+        }
+    },
+
+    HELP                (0){
+
+        @Override
+        public void execute(DictionaryService context, String[] parameters) {
+            for (CommandInfo commandInfo : CommandInfo.getCommandInfo()) {
+                System.out.println(commandInfo.toString());
+            }
         }
     },
 
@@ -145,6 +164,13 @@ public enum Command {
             return false;
         }
         return true;
+    }
+
+    /**
+     * Назначением функции является вывод информации обо всех известны командах.
+     */
+    public static void printCommandsInfo(){
+        System.out.println("");
     }
 
     public int getParametersCount() {
